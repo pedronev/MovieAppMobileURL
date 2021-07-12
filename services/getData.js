@@ -1,4 +1,4 @@
-const url = 'http://localhost:7000/latest'
+const url = 'http://3.134.99.170:4000//latest'
 
 /*export const getProduct = () => (
     fetch(url, {

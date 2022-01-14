@@ -36,49 +36,7 @@ const ListDisplay =(props) =>{
                 </ScrollView>   
         )
 
-//             const [visible, setVisible] = React.useState(false);
 
-//     const showModal = () => setVisible(true);
-
-//     function showModal(country) {
-
-//         setVisible(true);
-//       }
-
-//     const hideModal = () => setVisible(false);
-//     const containerStyle = {backgroundColor: 'white', padding: 20};
-
-
-//     if(proddata){
-//         return proddata.map((item,key)=> {
-//                 return(
-//                     <Provider>
-// <Card>
-// <Card.Content>
-//   <Title>{item.name}</Title>
-//   <Paragraph>Card content</Paragraph>
-// </Card.Content>
-// <Card.Cover source={{ uri: item.imageUrl }} />
-// <Card.Actions>
-
-//       <Portal>
-//         <Modal visible={visible} onDismiss={hideModal} contentContainerStyle={containerStyle}>
-//                     <MovieDetails  
-//                     props={item}>
-
-//                     </MovieDetails>
-//         </Modal>
-//       </Portal>
-//       <Button style={{marginTop: 30}} onPress={() => showModal(item)} >
-//         Details
-//       </Button>
-
-// </Card.Actions>
-// </Card>
-// </Provider>
-               // )    
-           // })
-    //}
 
 
 
